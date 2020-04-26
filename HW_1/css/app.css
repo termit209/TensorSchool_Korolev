@@ -1,0 +1,82 @@
+/**/
+
+body{
+    width: 100%; 
+    text-align: center; 
+    font-size: 18px; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#wraper{
+    width: 800px;
+    max-width: 800px; 
+    margin: 0 auto;
+}
+
+header{
+    margin: 40px 1px;
+}
+
+header .title img{
+    height: 30px;
+}
+
+header .title span{
+    font-size: 40px; 
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+header .title span:after{
+    content: '';
+    display: block;
+    border-top: 3px solid #000000; 
+    width: 150px;
+    margin: 20px auto;
+}
+
+header .title p{
+    margin-top: 20px;
+    width: 800px; 
+    display: inline-block;
+    text-align: center;
+}
+
+div .students {
+
+}
+
+div .person{
+    width: 30%;
+    display: inline-block;
+    margin-bottom: 20px;
+    
+}
+
+div .person img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover; 
+    border-radius: 50%;
+    margin-top: 30px;
+}
+
+div .person span{
+    font-size: 0.8em;
+    opacity: 0.5;
+}
+
+div .person p{
+    white-space: nowrap; /* Отменяем перенос текста */
+    overflow: hidden; /* Обрезаем содержимое */
+    padding-left: 50px; /* Поля */
+    padding-right: 50px;
+    text-overflow: ellipsis; /* Многоточие */
+    margin-bottom: 0px;
+}
+
+div .person p:hover{
+    overflow: inherit;
+    text-overflow: inherit;
+    white-space: nowrap;
+}
